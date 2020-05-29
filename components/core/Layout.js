@@ -34,8 +34,8 @@ export default withRouter(function Layout({ children, router }) {
                   </a>
                 </Link>
               </li>
-              <li className={`nav-item ${router.pathname === '/todo' ? 'active' : ''}`}>
-                <Link href="/todo">
+              <li className={`nav-item ${router.pathname === '/Todo' ? 'active' : ''}`}>
+                <Link href="/Todo">
                   <a className="nav-link">Todo</a>
                 </Link>
               </li>
